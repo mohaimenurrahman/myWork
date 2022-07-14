@@ -13,10 +13,10 @@ body{
     position: fixed;
     top: 0;
     left: -100%;
-    width: 50%;
+    width: 100%;
     min-height: 100vh;
     background: #333;
-    display: flex;
+    display: flex-end;
     transition: 1s;
 }
 .navigation.active{
@@ -217,10 +217,9 @@ footer{
     letter-spacing: 1px;
 }
 .copyright .copyrightText{
-    font-weight: 500;
+    font-weight: 300;
     color: #777;
     letter-spacing: 1px;
-   
 }
 
 
