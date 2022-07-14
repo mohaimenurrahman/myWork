@@ -1,0 +1,590 @@
+/* Large devices (desktops) */
+
+@media (max-width: 1024px) {}
+
+
+/* Medium devices (landscape phones, 576px and up) */
+
+@media (max-width: 768px) {
+
+     
+    .col-lg-3.col-3.smWidth-left.col__logo {
+        margin-right: 45%;
+    }
+
+     .display__none__768{
+         display: none;
+     }
+     .show__768{
+         display: block !important;
+     }
+
+     .adersslastbox {
+        padding-left: 0px;
+        position: relative;
+    }
+
+    .logo__top {
+        overflow: hidden;
+        margin-top: 9px;
+        width: 350px;
+    }
+
+    i.fas.fa-bars {
+        color: black;
+        padding-top: 5px;
+        }
+    .logo__area {
+        float: left;
+        width: 20%;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .text__area {
+        padding-top: 10px;
+        float: left;
+        width: 60%;
+    }
+    .text__area h2 {
+        font-size: 21px;
+        letter-spacing: 1px;
+        line-height: 22px;
+        padding-top: 0px
+    }
+    .text__area h4 {
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 24px;
+    }
+    .left-side {
+        width: 39%;
+        float: left;
+    }
+  
+  .image__overlay-1 {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/slide1.png);
+      width: 100%;
+      height: 715px;
+      background-size: cover;
+      color: white;
+      position: relative;
+  }
+  
+  .image__overlay-2 {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/carosel-1.jpg);
+      width: 100%;
+      height: 715px;
+      background-size: cover;
+      color: white;
+      position: relative;
+  }
+  
+  .unit__card h2 {
+      font-size: 1.5rem;
+      padding-top: 20px;
+      font-weight: 300;
+      margin-bottom: 18px;
+  }
+  
+  .state__card {
+      text-align: center;
+      height: 200px;
+      width: 100%;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+      transition: all .4s ease-in-out;
+      margin-bottom: 25px;
+  }
+  
+  .strngeBack {
+      box-shadow: -7px 16px 23px -10px rgba(0,0,0,0.3);
+      height: 70px;
+      position: relative;
+      margin-bottom: 40px;
+  }
+  .footer {
+      padding-top: 20px;
+      color: white;
+      background: #312787;
+      padding-left: 10px;
+  }
+  .pb {
+    padding-bottom: 30px;
+    }
+    .quality__blue {
+        background: #3359A6;
+        height: 92%;
+        position: relative;
+        padding-top: 420px;
+    }
+
+  /*  End of Index Page */
+
+  /* About Company Starts */
+.bg__img img {
+    box-shadow: -8px 7px 23px -10px rgba(0,0,0,0.75);
+    width: 100%;
+}
+.center__parent {
+    margin-bottom: 20px;
+}
+.list__right {
+    padding-left: 31px;
+}
+.center__child {
+    padding-top: 15px;
+}
+.img__tech {
+    position: absolute;
+    top: 8px;
+    left: 27px;
+    height: auto;
+    width: 90%;
+    padding-left: 20px;
+}
+.technology {
+    background: #F7F7F7;
+    padding-top: 0px; 
+     padding-bottom: 40px;
+}
+
+.about__common__heading {
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #312783;
+    line-height: 25px;
+    margin-bottom: 21px;
+    position: relative;
+}
+.description h1 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #312783;
+    margin-bottom: 120px;
+    line-height: 31px;
+    margin-top: 25px;
+}
+/* About Company Ends */
+
+
+/* Contact Us Starts */
+.footer-social h2::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #fff;
+    width: 0px;
+    top: 148px;
+    left: 85px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Contact Us Ends */
+
+/* Mission statement Starts */
+.mission__center__right {
+    padding-top: 385px;
+}
+.diamond__wash img{
+    width: 100% !important;
+}
+.inner__center__right p {
+    font-size: 15px;
+    margin-top: 26px;
+    line-height: 26px;
+    padding-right: 70px;
+    font-weight: 300;
+    height: 280px;
+}
+.map-1{
+    width: 100%;
+}
+.rightlafe {
+    padding-bottom: 40px;
+}
+
+.not__show{
+    display: none;
+}
+.map__section {
+    padding-bottom: 50px;
+    margin-top: 530px;
+}
+/* Mission statement Ends */
+
+/* Certificate and Achievement Starts */
+
+.cert img {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.cert__img h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cert__img__shape{
+    width: 200px !important;
+/* Certificate and Achievement Ends */
+
+}
+}
+
+/*  small devices (portrait phones, less than 576px) */
+
+@media (max-width: 425px) {
+
+    .not__show{
+        display: none !important;
+      }
+   
+  
+  .col-lg-3.col-3.smWidth-left.col__logo {
+      max-width: 100% !important;
+      flex: 0 0 100%;
+  }
+  
+  .logo__area {
+      float: left;
+      width: 23%;
+      padding-left: 12px;
+      padding-top: 5px;
+  }
+  
+  i.fas.fa-bars {
+  color: black;
+  padding-top: 5px;
+  }
+  
+  .image__overlay-1 {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/slide1.png);
+      width: 100%;
+      height: 715px;
+      background-size: cover;
+      color: white;
+      position: relative;
+  }
+  
+  .image__overlay-2 {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/carosel-1.jpg);
+      width: 100%;
+      height: 715px;
+      background-size: cover;
+      color: white;
+      position: relative;
+  }
+  
+  .unit__card h2 {
+      font-size: 1.5rem;
+      padding-top: 20px;
+      font-weight: 300;
+      margin-bottom: 18px;
+  }
+  
+  .state__card {
+      text-align: center;
+      height: 200px;
+      width: 100%;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+      transition: all .4s ease-in-out;
+      margin-bottom: 25px;
+  }
+  
+  .strngeBack {
+      box-shadow: -7px 16px 23px -10px rgba(0,0,0,0.3);
+      height: 70px;
+      position: relative;
+      margin-bottom: 40px;
+  }
+  .footer {
+      padding-top: 20px;
+      color: white;
+      background: #312787;
+      padding-left: 10px;
+  }
+  .pb {
+    padding-bottom: 30px;
+    }
+    .quality__blue {
+        background: #3359A6;
+        height: 92%;
+        position: relative;
+        padding-top: 420px;
+    }
+
+  /*  End of Index Page */
+
+  /* About Company Starts */
+.bg__img img {
+    box-shadow: -8px 7px 23px -10px rgba(0,0,0,0.75);
+    width: 100%;
+}
+.center__parent {
+    margin-bottom: 20px;
+}
+.list__right {
+    padding-left: 31px;
+}
+.center__child {
+    padding-top: 15px;
+}
+.img__tech {
+    position: absolute;
+    top: 8px;
+    left: 27px;
+    height: auto;
+    width: 90%;
+    padding-left: 20px;
+}
+.technology {
+    background: #F7F7F7;
+    padding-top: 0px; 
+     padding-bottom: 40px;
+}
+
+.about__common__heading {
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #312783;
+    line-height: 25px;
+    margin-bottom: 21px;
+    position: relative;
+}
+.description h1 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #312783;
+    margin-bottom: 120px;
+    line-height: 31px;
+    margin-top: 25px;
+}
+/* About Company Ends */
+
+/* Contact Us Starts */
+.footer-social h2::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #fff;
+    width: 0px;
+    top: 148px;
+    left: 85px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Contact Us Ends */
+/* Mission statement Starts */
+.mission__center__right {
+    padding-top: 385px;
+}
+.diamond__wash img{
+    width: 100% !important;
+}
+.inner__center__right p {
+    font-size: 15px;
+    margin-top: 26px;
+    line-height: 26px;
+    padding-right: 70px;
+    font-weight: 300;
+    height: 280px;
+}
+.map-1{
+    width: 100%;
+}
+.rightlafe {
+    padding-bottom: 40px;
+}
+/* Mission statement Ends */
+
+
+/* Certificate and Achievement Starts */
+
+.cert img {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.cert__img h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cert__img__shape{
+    width: 200px !important;
+}
+/* Certificate and Achievement Ends */
+
+}
+
+/* extra small */
+@media (max-width: 375px) {
+  .not__show{
+    display: none !important;
+  }
+ .col-lg-3.col-3.smWidth-left.col__logo {
+    max-width: 100% !important;
+    flex: 0 0 100%;
+}
+.logo__area {
+    float: left;
+    width: 23%;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+i.fas.fa-bars {
+color: black;
+padding-top: 5px;
+}
+
+.image__overlay-1 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/slide1.png);
+    width: 100%;
+    height: 715px;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.image__overlay-2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/carosel-1.jpg);
+    width: 100%;
+    height: 715px;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.unit__card h2 {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+.state__card {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    transition: all .4s ease-in-out;
+    margin-bottom: 25px;
+}
+.strngeBack {
+    box-shadow: -7px 16px 23px -10px rgba(0,0,0,0.3);
+    height: 70px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.footer {
+    padding-top: 20px;
+    color: white;
+    background: #312787;
+    padding-left: 10px;
+}
+.pb {
+    padding-bottom: 30px;
+    /* margin-bottom: 60px; */
+}
+.quality__blue {
+    background: #3359A6;
+    height: 92%;
+    position: relative;
+    padding-top: 420px;
+}
+/*  End Of Index Page */
+/* About Company Starts */
+.bg__img img {
+    box-shadow: -8px 7px 23px -10px rgba(0,0,0,0.75);
+    width: 100%;
+}
+.center__parent {
+    margin-bottom: 20px;
+}
+.list__right {
+    padding-left: 31px;
+}
+.center__child {
+    padding-top: 15px;
+}
+.img__tech {
+    position: absolute;
+    top: 8px;
+    left: 27px;
+    height: auto;
+    width: 90%;
+    padding-left: 20px;
+}
+.technology {
+    background: #F7F7F7;
+    padding-top: 0px; 
+     padding-bottom: 40px;
+}
+.about__common__heading {
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #312783;
+    line-height: 25px;
+    margin-bottom: 0px;
+    position: relative;
+}
+/* About Company Ends */
+
+/* Contact Us Starts */
+.footer-social h2::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #fff;
+    width: 0px;
+    top: 148px;
+    left: 85px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Contact Us Ends */
+/* Mission statement Starts */
+.mission__center__right {
+    padding-top: 385px;
+}
+.diamond__wash img{
+    width: 100% !important;
+}
+.inner__center__right p {
+    font-size: 15px;
+    margin-top: 26px;
+    line-height: 26px;
+    padding-right: 70px;
+    font-weight: 300;
+    height: 280px;
+}
+.map-1{
+    width: 100%;
+}
+.rightlafe {
+    padding-bottom: 40px;
+}
+/* Mission statement Ends */
+/* Certificate and Achievement Starts */
+.cert img {
+    width: 100%;
+    margin-bottom: 35px;
+}
+.cert__img h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.cert__img__shape{
+    width: 200px !important;
+}
+/* Certificate and Achievement Ends */
+
+/* Contact US Starts */
+
+/* Contact US Ends */
+}
