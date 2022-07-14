@@ -49,8 +49,8 @@ body {
   position: absolute;
   width: 15%;
   height: calc(100% - 30px);
-  top: 17px;
-  right: -10px;
+  top: 18px;
+  right: 1px;
   border-top: 3px solid  #0f0445;
   border-right: 3px solid  #0f0445;
 }
