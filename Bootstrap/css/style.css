@@ -15,7 +15,7 @@ body{
     left: -100%;
     width: 50%;
     min-height: 110vh;
-    background: #333;
+    background: #fff;
     display: flex;
     transition: 1s;
 }
@@ -96,11 +96,11 @@ header{
 }
 .toggle.active::before{
  transform: translateY(0px) rotate(45deg) ;
- background: #fff;
+ background: rgb(247, 8, 8);
 }
 .toggle.active::after{
     transform: translateY(0px) rotate(-45deg) ;
-    background: #fff;
+    background: rgb(247, 8, 8);
    }
 
 .btn-hire{
