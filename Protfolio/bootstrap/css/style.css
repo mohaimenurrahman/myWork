@@ -1,0 +1,144 @@
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar-brand img {
+    height: 50px;
+   
+}
+
+ /* Menu Bar Starts */
+
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../image/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    background-attachment: fixed;
+
+}
+
+.home-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+}
+
+.home-center h1 .akij{
+    text-shadow: 2px 2px #ff4800;
+}
+
+.home-center h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: bold ;
+   
+}
+
+.home-center p {
+    color: yellow;
+    font-weight:500 ;
+    font-size: 23px;
+}
+
+.home-btn .btn-shop{
+    border: 2px solid white ;
+    color: white;
+    font-size: 20px;
+    padding: 4px 7px ;
+}
+.home-btn .btn-shop:hover{
+    color: blue;
+    background: white;
+}
+.home-btn .btn-member{
+    border: 2px solid white ;
+    color: black;
+    background: white;
+    font-size: 20px;
+    padding: 4px 7px;
+}
+.home-btn .btn-member:hover{
+    color:yellowgreen;
+    background: none;
+}
+
+ /* Menu Bar ends */
+
+ /* popular product start */
+
+ .hoverimg{
+     overflow: hidden;
+
+ }
+ .hoverimg img{
+     transition: 0.75s;
+     height: 250px;
+     width: 300px;
+     padding-left: 60px;
+     
+}
+.hoverimg:hover img {
+    transform: scale(1.2);
+     
+}
+
+.btn-cart{
+    border: 2px solid black ;
+    background: #000;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.btn-cart:hover{
+    text-decoration: none;
+    background: none;
+    color: black;
+    transition: 0.05s;
+   
+}
+
+.btn-view{
+    border: 2px solid black ;
+    background: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.btn-view:hover{
+    text-decoration: none;
+    background: #000;
+    color: white;
+    transition: 0.05s;
+}
+.card-body{
+    background: rgb(245, 239, 239);
+}
+
+.formcolor{
+    background: #f1e8e4;
+}
+
+.footerimg{
+    height: 50px;
+    width: 350px;
+   
+}
+
+
+
+

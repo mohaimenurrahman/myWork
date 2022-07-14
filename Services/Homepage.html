@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../Services/bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../Services/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="icon" type="image/x-icon" href="../Services/image/icon.jpg">
+    <link href='https://fonts.googleapis.com/css?family=Racing Sans One' rel='stylesheet'>
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="../Services/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../Services/OwlCarousel/assets/owl.theme.default.min.css">
+
+   <title>Services</title>
+ 
+  </head>
+<body>
+
+    <!-- background carousel starts -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="textcontainer">
+              <h1 class="btitle text-warning mb-3 m-5 text-Poppins " >HTML</h1>
+              <P class="subtitle px-xl-18 px-md-10 mb-5 text-light " >PRODUCT ARROUND THE WORLD</P>
+              <a href="#" class="btn btn-lg btn-success">Browse All Books</a>
+            </div>
+          <img src="../Services/image/tech1.jpg"  alt="..." class="backgroundimg img-fluid">
+        </div>
+        <div class="carousel-item">
+          <div class="textcontainer">
+              <h1 class="btitle text-warning mb-3 m-5 text-Poppins " >CSS</h1>
+              <P class="subtitle px-xl-18 px-md-10 mb-5 text-light" >PRODUCT ARROUND THE WORLD</P>
+              <a href="#" class="btn btn-lg btn-success">Browse All Section</a>
+            </div>
+          <img src="../Services/image/tech2.jpg"  alt="..." class="backgroundimg img-fluid" >
+        </div>
+        <div class="carousel-item">
+          <div class="textcontainer">
+              <h1 class="btitle text-warning mb-3 m-5 text-Poppins " >BOOTSTRAP</h1>
+              <P class="subtitle px-xl-18 px-md-10 mb-5 text-light" >PRODUCT ARROUND THE WORLD</P>
+              <a href="#" class="btn btn-lg btn-success">Browse All Products</a>
+            </div>
+          <img src="../Services/image/tech3.jpg"  alt="..." class="backgroundimg img-fluid" >
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+<!-- background carousel ends -->
+
+              <script>
+                $(document).ready(function() {
+                  var owl = $('.owl-carousel');
+                  owl.owlCarousel({
+                    items: 5,
+                    loop: true,
+                    margin: 0,
+                    autoplay: true,
+                    autoplayTimeout: 1500,
+                    autoplayHoverPause: true
+                  });
+                  $('.play').on('click', function() {
+                    owl.trigger('play.owl.autoplay', [1000])
+                  })
+                  $('.stop').on('click', function() {
+                    owl.trigger('stop.owl.autoplay')
+                  })
+                })
+              </script>
+
+      </section>
+</div>
+
+
+ <!-- javascript -->
+ <script src="../Services/OwlCarousel/docs/assets/owlcarousel/owl.carousel.js"></script>
+<script src="../Services/bootstrap/js/bootstrap.min.js"></script>
+</body>
+  
+</html>

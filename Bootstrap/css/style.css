@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.navigation
+{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    min-height: 100vh;
+    background: #333;
+    display: flex;
+    transition: 1s;
+}
+.navigation.active{
+    left: 0;
+
+}
+.banner{
+    position: relative;
+    width: 80%;
+    height: 100%;
+}
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sec{
+    position: relative;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+}
+.sec.active{
+left: 100%;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggle{
+    position: relative;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.toggle.active{
+    left: -200px;
+
+}
+.toggle::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: #777;
+    transform: translateY(-6px);
+    transition: 0.5s;
+}
+.toggle::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: #777;
+    transform: translateY(6px) ;
+    transition: 0.5s;
+}
+.toggle.active::before{
+ transform: translateY(0px) rotate(45deg) ;
+ background: #fff;
+}
+.toggle.active::after{
+    transform: translateY(0px) rotate(-45deg) ;
+    background: #fff;
+   }
+
+.btn-hire{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: red;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.btn-download{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #2196f3;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+.sec .imgBx{
+    position: relative ;
+    min-width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.sec .content{
+    max-width: 700px;
+    margin-left: 40px;
+}
+.sec .content h2{
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #777;
+    line-height: 2.0em;
+}
+.sec .content h2 span{
+    font-weight: 700;
+    color: #2196f3;
+    font-size: 1.7em;
+}
+
+/* .sec .content h2 span{
+    position: relative;
+    font-size: 4vw;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+}
+
+.sec .content h2 span::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #2196f3;
+    -webkit-text-stroke: 0.1vw  #383d52;
+    border-right: 1px solid #2196f3;
+    overflow: hidden;
+    animation: animate 7s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+} */
+
+
+
+
+.sec .content p{
+    color: #777;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sci{
+    position: relative;
+    display:flex ;
+    align-items: center;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    position: relative;
+    margin-right: 20px;
+    display: inline-block;
+    transform: scale(0.7);
+    opacity: 0.8;
+}
+.copyrightText{
+    font-weight: 500;
+    color: #777;
+    letter-spacing: 1px;
+}
+.copyright .copyrightText{
+    font-weight: 500;
+    color: #777;
+    letter-spacing: 1px;
+   
+}
+
+
+.sidebar ul{
+    position: relative;
+    padding: 20px;
+    width: 300px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.sidebar ul li{
+    position: relative;
+    list-style: none;
+}
+.sidebar ul li::before{
+    content: '';
+    position: absolute;
+    top: 26px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.sidebar ul li:hover::before{
+    background:#188aff ;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    display: flex;
+}
+.sidebar ul li a .icon{
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    margin: 10px;
+    overflow: hidden;
+}
+.sidebar ul li a .icon .fa{
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 34px;
+    color: #333;
+    transition: 0.5s;
+}
+
+.sidebar ul li a .icon .fa:last-child{
+    color: #188aff;
+}
+.sidebar ul li a:hover .icon .fa{
+    transform:translateY(-100%);
+}
+.sidebar ul li a:hover .icon .fa:last-child{
+    transform:translateY(-100%);
+}
+.sidebar ul li a .name{
+    position: relative;
+    top: 20px;
+    height: 20px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    
+}
+.sidebar ul li a .name span {
+    display: block;
+    position: relative;
+    color: #333 ;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    transition: 0.5s;
+}
+.sidebar ul li a .name span::before{
+    content: attr(data-text);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #188aff;
+}
+.sidebar ul li a:hover .name span{
+    transform: translateY(20px);
+}
+
+
+@media(max-width: 991px){
+    .sec{
+        padding: 40px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header,footer{
+        padding: 20px 40px;
+    }
+    .sec .imgBx{
+        width: 300px;
+        min-width: 300px;
+        height: 300px;
+        margin-top: 100px;
+    }
+    .sec .content{
+        margin-bottom: 100px;
+        margin-left: 0;
+        max-width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sec .content h2 span{
+        font-size: 1.7em;
+    }
+    .banner{
+       display: none; 
+    }
+    .toggle.active{
+        left: -120px;
+    }
+    .sidebar{
+        margin-left: 0;
+    }
+   
+}
