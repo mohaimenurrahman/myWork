@@ -1,0 +1,39 @@
+/* Large devices (desktops) */
+
+@media (max-width: 1024px) {}
+
+
+/* Medium devices (landscape phones, 576px and up) */
+
+@media (max-width: 768px) {
+
+     
+    
+}
+
+/*  small devices (portrait phones, less than 576px) */
+
+@media (max-width: 425px) {
+   
+    .btitle{
+        font-size: 45px;
+        font-weight: 1000;
+        text-shadow: 2px 2px #ff4800;
+        margin-bottom: 250px;
+        color: gold;
+      }
+    
+      #carouselExampleIndicators .backgroundimg {
+        height:18rem;
+        width: 100%;
+      }
+      .carousel-inner{
+        height:18rem;
+      }
+    
+}
+
+/* extra small */
+@media (max-width: 375px) {
+ 
+}

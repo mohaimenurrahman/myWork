@@ -548,43 +548,5 @@ padding-top: 5px;
     text-align: center;
 }
 /* Contact Us Ends */
-/* Mission statement Starts */
-.mission__center__right {
-    padding-top: 385px;
-}
-.diamond__wash img{
-    width: 100% !important;
-}
-.inner__center__right p {
-    font-size: 15px;
-    margin-top: 26px;
-    line-height: 26px;
-    padding-right: 70px;
-    font-weight: 300;
-    height: 280px;
-}
-.map-1{
-    width: 100%;
-}
-.rightlafe {
-    padding-bottom: 40px;
-}
-/* Mission statement Ends */
-/* Certificate and Achievement Starts */
-.cert img {
-    width: 100%;
-    margin-bottom: 35px;
-}
-.cert__img h1 {
-    font-size: 25px;
-    font-weight: 600;
-}
-.cert__img__shape{
-    width: 200px !important;
-}
-/* Certificate and Achievement Ends */
 
-/* Contact US Starts */
-
-/* Contact US Ends */
 }
