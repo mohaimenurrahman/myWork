@@ -879,7 +879,10 @@ transform: scale(0.9);
   font-size: 95px;
   font-weight: 1000;
   text-shadow: 2px 2px #ff4800;
+  margin-bottom: 100px;
 }
+
+
 
 .subtitle{
   font-size: 30px;
@@ -890,6 +893,13 @@ transform: scale(0.9);
 }
 
 /* background carousel start */
+.ser-main-title{
+  font-family: Garamond, serif;
+}
+.serTitle{
+  color: #ca1515;
+  font-family: 'Brush Script MT', cursive;
+}
 
 
 
