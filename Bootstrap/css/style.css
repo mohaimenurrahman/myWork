@@ -227,7 +227,7 @@ footer{
     position: relative;
     padding: 20px;
     width: 300px;
-    background: #fff;
+    background: rgba(241, 130, 3, 0.268);
     display: flex;
     flex-direction: column;
     border-radius: 10px;
