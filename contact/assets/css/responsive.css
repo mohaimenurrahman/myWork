@@ -11,6 +11,13 @@
     .col-lg-3.col-3.smWidth-left.col__logo {
         margin-right: 45%;
     }
+     .not__show{
+        display: none !important;
+      }
+
+      .not__show .wrap{
+        display: none !important;
+      }
 
      .display__none__768{
          display: none;
