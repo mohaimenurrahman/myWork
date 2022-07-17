@@ -7,6 +7,16 @@
 }
 body{
     overflow-x: hidden;
+    background-image:
+    linear-gradient(to bottom,  rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../../image/cover.jpg');
+    background-size: cover;
+    color: white;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+   
 }
 .navigation
 {
@@ -14,8 +24,8 @@ body{
     top: 0;
     left: -100%;
     width: 50%;
-    min-height: 110vh;
-    background: #fff;
+    min-height: 100vh;
+    background: none;
     display: flex;
     transition: 1s;
 }
@@ -35,7 +45,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-} 
+}
 
 .sec{
     position: relative;
@@ -81,7 +91,7 @@ header{
     position: absolute;
     width: 30px;
     height: 3px;
-    background: #777;
+    background: #fff;
     transform: translateY(-6px);
     transition: 0.5s;
 }
@@ -90,17 +100,17 @@ header{
     position: absolute;
     width: 30px;
     height: 3px;
-    background: #777;
+    background: #fff;
     transform: translateY(6px) ;
     transition: 0.5s;
 }
 .toggle.active::before{
  transform: translateY(0px) rotate(45deg) ;
- background: rgb(247, 8, 8);
+ background: #fff;
 }
 .toggle.active::after{
     transform: translateY(0px) rotate(-45deg) ;
-    background: rgb(247, 8, 8);
+    background: #fff;
    }
 
 .btn-hire{
@@ -118,7 +128,7 @@ header{
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    background: #2196f3;
+    background: rgb(245, 90, 12);
     color: #fff;
     font-weight: 500;
     letter-spacing: 1px;
@@ -138,12 +148,12 @@ header{
 .sec .content h2{
     font-weight: 500;
     letter-spacing: 1px;
-    color: #777;
+    color: #fff;
     line-height: 2.0em;
 }
 .sec .content h2 span{
     font-weight: 700;
-    color: #2196f3;
+    color: rgb(245, 90, 12);
     font-size: 1.7em;
 }
 
@@ -181,7 +191,7 @@ header{
 
 
 .sec .content p{
-    color: #777;
+    color: #fff;
     font-size: 1.2em;
     margin-bottom: 20px;
 }
@@ -211,15 +221,20 @@ footer{
     transform: scale(0.7);
     opacity: 0.8;
 }
+
+.sci img{
+    color: #fff;
+}
 .copyrightText{
     font-weight: 500;
-    color: #777;
+    color: #fff;
     letter-spacing: 1px;
 }
 .copyright .copyrightText{
-    font-weight: 300;
-    color: #777;
+    font-weight: 500;
+    color: #fff;
     letter-spacing: 1px;
+   
 }
 
 
@@ -232,8 +247,8 @@ footer{
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    margin-top: 80px;
-    margin-left: 30px;
+    margin-top: 140px;
+    margin-right: -250px;
 }
 .sidebar ul li{
     position: relative;
