@@ -386,5 +386,14 @@ footer{
     font-size: 10px;
     text-align: center;
 }
+.copyright1st{
+    color: rgb(181, 178, 178);
+    letter-spacing: 1px;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
 
 }
