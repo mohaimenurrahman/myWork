@@ -224,7 +224,7 @@ footer{
 
 .copyrightText{
     font-weight: 500;
-    color: #fff;
+    color: rgb(181, 178, 178);
     letter-spacing: 1px;
 }
 .copyright .copyrightText{
@@ -376,7 +376,7 @@ footer{
 
 .sidebar{
     margin-left: 25px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 }
