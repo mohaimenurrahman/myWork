@@ -8,14 +8,14 @@
 body{
     overflow-x: hidden;
     background-image:
-    linear-gradient(to bottom,  rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    
     url('../../image/cover.jpg');
     background-size: cover;
     color: white;
     position: relative;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 50px;
    
 }
 .navigation
@@ -91,7 +91,7 @@ header{
     position: absolute;
     width: 30px;
     height: 3px;
-    background: #fff;
+    background: red;
     transform: translateY(-6px);
     transition: 0.5s;
 }
@@ -100,17 +100,17 @@ header{
     position: absolute;
     width: 30px;
     height: 3px;
-    background: #fff;
+    background: red;
     transform: translateY(6px) ;
     transition: 0.5s;
 }
 .toggle.active::before{
  transform: translateY(0px) rotate(45deg) ;
- background: #fff;
+ background: red;
 }
 .toggle.active::after{
     transform: translateY(0px) rotate(-45deg) ;
-    background: #fff;
+    background: red;
    }
 
 .btn-hire{
@@ -148,7 +148,7 @@ header{
 .sec .content h2{
     font-weight: 500;
     letter-spacing: 1px;
-    color: #fff;
+    color: #777;
     line-height: 2.0em;
 }
 .sec .content h2 span{
@@ -191,7 +191,7 @@ header{
 
 
 .sec .content p{
-    color: #fff;
+    color: #777;
     font-size: 1.2em;
     margin-bottom: 20px;
 }
@@ -222,9 +222,6 @@ footer{
     opacity: 0.8;
 }
 
-.sci img{
-    color: #fff;
-}
 .copyrightText{
     font-weight: 500;
     color: #fff;
@@ -367,4 +364,12 @@ footer{
         margin-left: 0;
     }
    
+}
+
+/*  small devices (portrait phones, less than 576px) */
+
+@media (max-width: 425px) {
+    
+
+
 }
