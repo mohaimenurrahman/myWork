@@ -222,6 +222,36 @@ footer{
     opacity: 0.8;
 }
 
+.smallf{
+    position: absolute;
+    bottom: -217px;
+    left: 0;
+    padding: 30px 0px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.sci2{
+    position: relative;
+}
+.sci2 li{
+    list-style: none;
+}
+.sci2 li a{
+    position: relative;
+    margin-right: 0px;
+    margin-left: 150px;
+    display: inline-block;
+    transform: scale(0.7);
+    opacity: 0.8;
+   
+}
+
+
+
+
 .copyrightText{
     font-weight: 500;
     color: rgb(181, 178, 178);
@@ -325,9 +355,24 @@ footer{
 .sidebar ul li a:hover .name span{
     transform: translateY(20px);
 }
+.card.personalCard {
+    display: none;
+}
+.card .personalCard2{
+   margin-top: 20px;
+
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+}
 
 
 @media(max-width: 991px){
+    
     .sec{
         padding: 40px;
         flex-direction: column;
@@ -391,9 +436,16 @@ footer{
     letter-spacing: 1px;
     font-size: 10px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 20px;
 
+}
+.card.personalCard {
+    display: block;
+}
+
+.navigation .smallf .sci{
+    margin-top: 40px;
 }
 
 }
