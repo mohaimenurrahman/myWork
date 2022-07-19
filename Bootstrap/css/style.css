@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -222,36 +222,6 @@ footer{
     opacity: 0.8;
 }
 
-.smallf{
-    position: absolute;
-    bottom: -217px;
-    left: 0;
-    padding: 30px 0px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.sci2{
-    position: relative;
-}
-.sci2 li{
-    list-style: none;
-}
-.sci2 li a{
-    position: relative;
-    margin-right: 0px;
-    margin-left: 150px;
-    display: inline-block;
-    transform: scale(0.7);
-    opacity: 0.8;
-   
-}
-
-
-
-
 .copyrightText{
     font-weight: 500;
     color: rgb(181, 178, 178);
@@ -274,7 +244,7 @@ footer{
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    margin-top: 140px;
+    margin-top: 160px;
     margin-right: -250px;
 }
 .sidebar ul li{
@@ -357,9 +327,11 @@ footer{
 }
 .card.personalCard {
     display: none;
+    margin-top: 60px;
+
 }
 .card .personalCard2{
-   margin-top: 20px;
+   margin-top: 50px;
 
 }
 
